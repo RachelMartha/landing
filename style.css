@@ -1,9 +1,11 @@
 body {
-    background-color: none; 
+    background-color: blue; 
+    
     }
     .container-fluid {
+        background-color: pink;
         display: flex;
-        align-items: stretch;
+        align-items: flex-end;
         height: 950px;
         border: 0px;
         justify-content: space-evenly;
@@ -90,7 +92,7 @@ body {
     h3 {
         font-size: 15px;
         font-weight: bold;
-        color: rgb(224, 215, 221); 
+        color: green; 
         margin-top: 25px;
     }
     
